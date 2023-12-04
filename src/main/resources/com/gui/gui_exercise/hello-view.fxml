@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane prefHeight="800.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.gui.gui_exercise.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <Pane id="Top Name" prefHeight="115.0" prefWidth="400.0" style="-fx-background-color: #96EFFF;">
+         <children>
+            <ImageView id="back_icon" fitHeight="28.0" fitWidth="30.0" layoutX="7.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/less-than_8278632.png" />
+               </image>
+            </ImageView>
+            <ImageView id="avatar" fitHeight="41.0" fitWidth="40.0" layoutX="45.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/woman.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="88.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ghệ" wrappingWidth="58.375">
+               <font>
+                  <Font name="Roboto Bold" size="18.0" />
+               </font>
+            </Text>
+            <ImageView id="phone" fitHeight="32.0" fitWidth="58.0" layoutX="312.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/phone.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="58.0" layoutX="351.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/video%20cam.png" />
+               </image>
+            </ImageView>
+            <ImageView id="status" fitHeight="12.0" fitWidth="8.0" layoutX="74.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/green%20circle.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Group layoutX="33.0" layoutY="225.0">
+         <children>
+            <ImageView fitHeight="49.0" fitWidth="94.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/message%202.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="32.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chưa" />
+         </children>
+      </Group>
+      <Group layoutX="185.0" layoutY="144.0">
+         <children>
+            <ImageView fitHeight="71.0" fitWidth="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/message.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="15.0" layoutY="32.0" stroke="#bb9cc0" strokeLineJoin="BEVEL" strokeType="OUTSIDE" strokeWidth="0.0" text="Em đã ăn cơm chưa?" />
+         </children>
+      </Group>
+      <Group layoutX="233.0" layoutY="267.0">
+         <children>
+            <ImageView fitHeight="47.0" fitWidth="125.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/message.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="17.0" layoutY="22.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vậy ăn đi nhé" />
+         </children>
+      </Group>
+      <Pane id="Bot Name" layoutY="701.0" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #96EFFF;">
+         <children>
+            <ImageView id="library" fitHeight="64.0" fitWidth="35.0" layoutX="18.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/library.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="82.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="..." wrappingWidth="7.8046875" />
+            <ImageView id="sendMessage" fitHeight="34.0" fitWidth="35.0" layoutX="273.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/send.png" />
+               </image>
+            </ImageView>
+            <ImageView id="voiceMail" fitHeight="34.0" fitWidth="56.0" layoutX="318.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../icon/record.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="23.0" layoutX="70.0" layoutY="37.0" stroke="BLACK" strokeType="INSIDE" width="182.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
